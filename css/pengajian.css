@@ -1,0 +1,67 @@
+
+
+/* teks berjalan */
+.text marquee{
+    padding: 10px 0;
+}
+.text{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.text h5{
+    margin-top: 20px;
+}
+
+.text p{
+    text-align: center;
+}
+
+/* judul */
+
+.judul {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.container{
+    margin-top: -50px;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 27px;
+}
+
+.container h3{
+    font-size: 20px;
+}
+
+
+.tabel{
+    margin-top: 10px;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) { 
+   .container{
+        margin-top: -50px;
+        text-align: center;
+    }
+    .container h1{
+        font-size: 37px;
+    }
+
+    .container h3{
+        font-size: 27px;
+    }
+
+
+    .text{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+    } 
+}

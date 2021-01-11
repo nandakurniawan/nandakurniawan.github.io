@@ -1,0 +1,88 @@
+body {
+    background-color: #4e73df;
+}
+/* awalan website */
+.row {
+    width: 80%;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+.col-lg span {
+    font-weight: 500;
+}
+
+.col-lg h5 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.col-lg p {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 20px;
+    color: #ACACAC;
+    font-weight: 200;
+}
+
+.tampilan-awal {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.col-lg .gambar {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+}
+
+/* tombol */
+
+.tombol1 {
+    display: block;
+    width: 150px;
+    margin: 15px auto 0;
+    border-radius: 9px;
+}
+
+.tombol2 {
+    display: block;
+    width: 150px;
+    margin: 15px auto 0;
+    border-radius: 9px;
+}
+
+
+/* Dekstop version */
+@media (min-width: 992px) { 
+    .col-lg h5 {
+        font-size: 30px;
+    }
+
+    .col-lg p {
+        font-size: 20px;
+    }
+    
+    .gambar{
+        margin-left: 142px;
+        width: 60%;
+    }
+
+    .tombol1 {
+        display: block;
+        width: 200px;
+        margin: 20px auto 0;
+        border-radius: 9px;
+    }
+
+    .tombol2 {
+        display: block;
+        width: 200px;
+        margin: 20px auto 0;
+        border-radius: 9px;
+    }
+}

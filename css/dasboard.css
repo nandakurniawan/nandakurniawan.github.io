@@ -1,0 +1,11 @@
+/* Dekstop version */
+@media (min-width: 992px) { 
+	.h6 {
+		font-size: 20px;
+	}
+
+}
+/* Mobile version */
+.h6 {
+    font-size: 12px;
+}

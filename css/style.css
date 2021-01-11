@@ -1,0 +1,293 @@
+/* Navbar */
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	position: relative;
+	z-index: 1;
+
+}
+.navbar-brand{
+	font-family: 'Viga', sans-serif;
+	font-size: 25px;
+}
+
+#navbarNavAltMarkup{
+	transition: all 0.5s;
+}
+
+
+
+
+/* Utility */
+
+.tombol{
+	text-transform: uppercase;
+	border-radius: 40px;
+	padding: 0 10px;
+}
+
+.btn{
+	padding: 6px 17px;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+	background-image: url(../img/slider2.jpeg);
+	background-size: cover;
+	height: 543px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .container{
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron .container h5{
+	font-size: 18px;
+	color: #ACACAC;
+	font-weight: 300;
+	margin-bottom: 25px;
+
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4{
+	color: white;
+	margin-top: 150px;
+	font-weight: 200;
+	font-size: 21px;
+	margin-bottom: 45px;
+}
+
+.jumbotron .display-4 span{
+	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+
+/* info Panel */
+.info-panel{
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	background-color: white;
+	padding: 30px;
+}
+
+.info-panel img{
+	width: 80px;
+	height: 70px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.info-panel h4{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.info-panel p{
+	font-size: 14px;
+	color: #ACACAC;
+	margin-top: -5px;
+	font-weight: 200;
+}
+
+.section-title .title h4{
+	text-align: center;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+/* workingspace */
+
+.workingspace{
+	margin-top: 80px;
+	text-align: center;
+}
+
+.row .col-lg-6 {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.kotak img{
+	transition: 0.3s ease;
+}
+
+.zoom-effect:hover .kotak img{
+	-webkit-transition: scale(1.03s);
+	transition: 1.03s;
+}
+
+.img-fluid{
+	border-radius: 10px;
+}
+
+
+.row .nav-link {
+    margin-top: 35px;
+}
+
+
+.workingspace h4{
+	font-size: 42px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.workingspace h4 span{
+	font-weight: 500;
+}
+
+.workingspace p{
+	font-size: 18px;
+	color: #ACACAC;
+	font-weight: 200;
+	margin: 25px 0;
+}
+
+.workingspace .img-fluid{
+	margin-bottom: 25px;
+}
+
+.gambar{
+	margin-top: 35px;
+}
+
+.gambar3{
+	margin-top: 35px;
+}
+
+
+/* Testimonial */
+
+.testimonial{
+	margin-top: 100px;
+}
+
+.testimonial h5{
+	text-align: center;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.testimonial .tes{
+	font-size: 14px
+
+
+}
+.testimonial figure img{
+	width: 90px;
+	margin: 20px 13px 9px;
+}
+
+.testimonial figure figure-img.utama{
+	width: 80px;
+	margin-top: 2px;
+
+}
+
+.testimonial h5{
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	color: #1C2C5D;
+}
+
+.testimonial p{
+	font-size: 12px;
+	color: #ACACAC;
+	text-align: center;
+	margin-top: -5px;
+
+}
+
+/* footer */
+.footer {
+	margin-top: 100px;
+}
+.footer p{
+	color: #ACACAC;
+	font-size: 18px;
+}
+
+
+img.img-profile.rounded-circle {
+    width: 40px;
+    margin-top: -13px;
+}
+/* DEKSTOP VERSION */
+
+@media (min-width: 992px) { 
+	.navbar-brand, .nav-link{
+		color: black !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	}
+	
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 15px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #0B63DC;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.navbar-nav {
+    	margin-right: -50px;
+	}
+
+	.jumbotron{
+		margin-top: -75px;
+		height: 643px;
+	}
+
+	.jumbotron .display-4{
+		font-size: 62px;
+	}
+
+	.workingspace{
+		text-align: left;
+	}
+
+	.testimonial h5{
+		font-size: 32px;
+	}
+
+	.testimonial figure img.utama{
+		margin-top: -5px;
+
+	}
+
+}
+
+
+
+
